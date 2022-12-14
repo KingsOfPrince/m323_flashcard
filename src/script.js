@@ -65,7 +65,7 @@ function viewlist() {
   const link = document.createElement("a");
   link.setAttribute("href", "#");
   link.setAttribute("class", "show-hide-btn");
-  link.innerHTML = "Show/Close";
+  link.innerHTML = "Show Answer/Hide Answer";
   link.addEventListener("click", () => {
     answerDiv.classList.toggle("hide");
   });
