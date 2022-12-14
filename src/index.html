@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcard App</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/text.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+  />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Trirong:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    <div id="container">
+      <span id="text1"></span>
+      <span id="text2"></span>
+  </div>
+  
+  <svg id="filters">
+      <defs>
+          <filter id="threshold">
+              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+          </filter>
+      </defs>
+  </svg>
+    <div class="container">
+      <div class="add-flashcard-con">
+        <button id="add-flashcard">Add Flashcard</button>
+      </div>
+
+
+      <div id="card-con">
+        <div class="card-list-container"></div>
+      </div>
+    </div>
+
+    <!-- Input form for users to fill question and answer -->
+    <div class="question-container hide" id="add-question-card">
+      <h2>Add Flashcard</h2>
+      <div class="wrapper">
+        <!-- Error message -->
+        <div class="error-con">
+          <span class="hide" id="error">Input field cannot be empty! Please fill in a Question and an Answer </span>
+        </div>
+        <!-- Close Button -->
+        <i class="fa-solid fa-xmark" id="close-btn"></i>
+      </div>
+
+      <label for="question">Question:</label>
+      <textarea
+        class="input"
+        id="question"
+        placeholder="Write the question here..."
+        rows="2"
+      ></textarea>
+      <label for="answer">Answer:</label>
+      <textarea
+        class="input"
+        id="answer"
+        rows="4"
+        placeholder="Type the answer here..."
+      ></textarea>
+      <button id="save-btn">Save</button>
+    </div>
+    <footer>
+      <p>
+            Created with by<a target="_blank" href="https://github.com/KingsOfPrince"> KingsOfPrince</a>
+    </footer>
+
+    <!-- Script -->
+    <div>
+      <div id="particles-js"></div>
+      <script src="particles/particles.js"></script>
+      <script src="particles/app.js"></script>
+  </div>
+    <script src="bundle.js"></script>
+    <script src="background-textjs/text.js"></script>
+  </body>
+</html>
