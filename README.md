@@ -13,7 +13,7 @@ This web application is made with skills i learned in Module 323.
 #### Particles JS
 - I don't have a link for "particle js". I got it from my brother. 
 ## **Special Design Features**  
-I have responsive background which I implemented with Particle js. And also I have a Text changing animation which goes on a loop which I did implemented with the help of google.
+I have responsive background which I implemented with Particle js. And also I have a Text changing animation that goes on a loop which I did implemented with the help of google.
 ## **Help**
 My Brother Toni who has Bachelor of Technology in Computer Science and Engineering and had the skills to help me with my small problems.
 
