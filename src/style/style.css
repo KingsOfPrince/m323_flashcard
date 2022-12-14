@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #000000;
+  background-color: #292727;
 }
 .title{
   color:#ffffff;  
@@ -41,7 +41,7 @@ button {
 }
 .add-flashcard-con button {
   font-size: 1em;
-  background-color: #58f475;
+  background-color: #39f05b;
   color: #ffffff;
   padding: 0.8em 1.2em;
   font-weight: 500;
@@ -61,8 +61,8 @@ button {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  padding: 3em 2em;
-  border-radius: 0.6em;
+  padding: 50px;
+  border-radius: 30px;
   box-shadow: 0 1em 2em rgba(28, 0, 80, 0.1);
 }
 .question-container h2 {
@@ -135,7 +135,7 @@ textarea:focus {
   background-color: #ffffff;
   box-shadow: 0 0.4em 1.2em rgba(28, 0, 80, 0.08);
   padding: 1.2em;
-  border-radius: 0.4em;
+  border-radius: 30px;
   top: 400px;
 }
 .question-div,
